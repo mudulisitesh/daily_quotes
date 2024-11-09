@@ -1,0 +1,40 @@
+name: daily_quotes
+description: A Flutter application that displays daily motivational quotes with notifications.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter_local_notifications: ^14.0.0
+  flutter:
+    sdk: flutter
+  
+  # Local notifications - using latest version
+
+  # Data persistence
+  shared_preferences: ^2.0.8
+
+  # HTTP client for API requests
+  http: ^0.13.3
+
+  # Material Design icons
+  cupertino_icons: ^1.0.2
+
+  connectivity_plus: ^4.0.1
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, uncomment this section
+  # assets:
+  #   - images/icon.png
